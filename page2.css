@@ -1,0 +1,27 @@
+body {
+ background-image: url("background.gif");
+ background-color: #cccccc;
+ background-repeat: repeat;
+ background-size: 80%;
+}
+
+h1{
+    color: rgb(236, 243, 250);
+    text-align: center;
+}
+#borderimg { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(l1.png) 30 round;
+    color: burlywood;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2{
+      color: antiquewhite;
+      list-style-type: circle;
+      
+  }
